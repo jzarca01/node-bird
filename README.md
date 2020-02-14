@@ -163,6 +163,32 @@ bird.getNearbyParking(
 );
 ```
 
+### Get long-term rental
+
+```javascript
+bird.getLongTermRental(
+  location = { latitude, longitude }
+);
+```
+
+### Get private Bird
+
+```javascript
+bird.getPrivateBird(limit = 20);
+```
+
+### Get Stripe Customer
+
+```javascript
+bird.getStripeCustomer();
+```
+
+### Get Stripe key
+
+```javascript
+bird.getStripeKey();
+```
+
 ### Add card to Stripe
 
 ```javascript
@@ -174,12 +200,6 @@ const stripeCard = bird.createStripeCard({ cardNumber, expMonth = "09", expYear 
 ```javascript
 bird.addCardFromStripe(stripeCard.id, latitude = faker.address.latitude(), longitude = faker.address.longitude();
 stripeCard is defined above
-```
-
-### Get Stripe Customer
-
-```javascript
-bird.getStripeCustomer();
 ```
 
 ### Set card as default source in your Bird account
