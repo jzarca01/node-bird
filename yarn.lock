@@ -728,9 +728,9 @@ acorn-jsx@^5.1.0:
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 amdefine@>=0.0.4:
   version "1.0.1"
@@ -1521,9 +1521,10 @@ node-releases@^1.1.47:
   dependencies:
     semver "^6.3.0"
 
-"nodejs-license-file@git+https://github.com/jzarca01/nodejs-license-file.git":
+"nodejs-license-file@https://github.com/jzarca01/nodejs-license-file.git":
   version "4.0.0"
-  resolved "git+https://github.com/jzarca01/nodejs-license-file.git#005a8f5ae4280ed223450f6eaf840df59194fb50"
+  uid "005a8f5ae4280ed223450f6eaf840df59194fb50"
+  resolved "https://github.com/jzarca01/nodejs-license-file.git#005a8f5ae4280ed223450f6eaf840df59194fb50"
   dependencies:
     dayjs "1.8.17"
     json-stable-stringify "1.0.1"
