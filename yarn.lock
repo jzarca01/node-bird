@@ -815,12 +815,12 @@ axios-middleware@^0.3.1:
   resolved "https://registry.yarnpkg.com/axios-middleware/-/axios-middleware-0.3.1.tgz#2dd29ee5a821b2499be887e256d60872eb715542"
   integrity sha512-DuPLxZgqBYnRgEhEUulNzPspf0j9jlH5iWOJHEfuLFfsxWLc7vjeOxR903dp+G+nrU3TYWbg2COLZ4PDUwh87g==
 
-axios@^0.19.0:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 babel-plugin-dynamic-import-node@^2.3.0:
   version "2.3.0"
@@ -1024,13 +1024,6 @@ dayjs@1.8.17:
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.17.tgz#53ec413f2a7b02afbea1846d61bb260fa8567cea"
   integrity sha512-47VY/htqYqr9GHd7HW/h56PpQzRBSJcxIQFwqL3P20bMF/3az5c3PWdVY3LmPXFl6cQCYHL7c79b9ov+2bOBbw==
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -1159,12 +1152,10 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -1470,11 +1461,6 @@ mkdirp@0.5.1, mkdirp@0.x.x:
   dependencies:
     minimist "0.0.8"
 
-ms@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
-  integrity sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
-
 ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
@@ -1521,9 +1507,10 @@ node-releases@^1.1.47:
   dependencies:
     semver "^6.3.0"
 
-"nodejs-license-file@git+https://github.com/jzarca01/nodejs-license-file.git":
+"nodejs-license-file@https://github.com/jzarca01/nodejs-license-file.git":
   version "4.0.0"
-  resolved "git+https://github.com/jzarca01/nodejs-license-file.git#005a8f5ae4280ed223450f6eaf840df59194fb50"
+  uid "005a8f5ae4280ed223450f6eaf840df59194fb50"
+  resolved "https://github.com/jzarca01/nodejs-license-file.git#005a8f5ae4280ed223450f6eaf840df59194fb50"
   dependencies:
     dayjs "1.8.17"
     json-stable-stringify "1.0.1"
