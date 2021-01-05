@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "app-root-path": "^3.0.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "axios-license-middleware": "^1.0.0",
     "faker": "^4.1.0",
     "path": "^0.12.7",
